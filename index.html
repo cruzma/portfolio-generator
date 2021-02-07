@@ -1,15 +1,67 @@
 
-    <!DOCTYPE html> 
-    <html lang="en"> 
+    <!DOCTYPE html>
+    <html lang="en">
+
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>Portfolio Demo</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Public+Sans:300i,300,500&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-      <h1>Mateo</h1>
-      <h2><a href="https://github.com/mateohub">Github</a></h2>
+      <header>
+        <div class="container flex-row justify-space-between align-center py-3">
+          <h1 class="page-title text-secondary bg-dark py-2 px-3">Mateo</h1>
+          <nav class="flex-row">
+            <a class="ml-2 my-1 px-2 py-1 bg-secondary text-dark" href="https://github.com/cruzma">GitHub</a>
+          </nav>
+        </div>
+      </header>
+      <main class="container my-5">
+            
+  <section class="my-3" id="about">
+    <h2 class="text-dark bg-primary p-2 display-inline-block">About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tincidunt aliquam nunc vel condimentum. Sed imperdiet lorem eget finibus imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut egestas finibus mi, id elementum nibh placerat nec. Cras non ante a mauris mattis semper. Curabitur congue, lorem ac euismod volutpat, elit mauris vestibulum mi, in ultrices erat dui eget enim. Vestibulum ac ante at tortor luctus vulputate. Nunc mollis eros massa, eget commodo sem laoreet sed. Mauris orci lectus, sollicitudin et suscipit at, gravida dapibus lacus. Proin eu eros congue, sagittis elit nec, fermentum libero. Sed non vulputate dolor. Donec luctus rhoncus erat a pharetra. Cras viverra metus felis. Phasellus viverra porta mauris, eu posuere ex laoreet vel. Cras at erat non sem posuere vulputate sit amet eu felis.</p>
+  </section>
+  
+            
+    <section class="my-3" id="portfolio">
+      <h2 class="text-dark bg-primary p-2 display-inline-block">Work</h2>
+      <div class="flex-row justify-space-between">
+      
+          <div class="col-12 mb-2 bg-dark text-light p-3">
+            <h3 class="portfolio-item-title text-light">portfolio-generator</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              JavaScript, ES6, Node
+            </h5>
+            <p>portfolio-generator</p>
+            <a href="./portfolio-generator" class="btn"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+
+      
+          <div class="col-12 col-md-6 mb-2 bg-dark text-light p-3 flex-column">
+            <h3 class="portfolio-item-title text-light">down-up</h3>
+            <h5 class="portfolio-languages">
+              Built With:
+              HTML, CSS, Bootstrap
+            </h5>
+            <p>Aliquam id scelerisque orci. Sed et libero ullamcorper, fermentum neque vitae, sagittis libero. Duis quam turpis, convallis a tortor eget, consequat mattis nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent viverra velit vitae tellus porta viverra. Etiam velit eros, convallis sit amet diam sit amet, commodo ullamcorper urna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend, lacus cursus maximus pellentesque, odio erat elementum nulla, tempor cursus nibh risus sed odio. Suspendisse sagittis mauris et blandit viverra. Integer eget enim maximus, iaculis mauris et, porta dui. Suspendisse in ipsum interdum, blandit nisl at, mattis risus. Nullam ultrices diam ut turpis elementum, nec mollis velit finibus. Morbi id neque sem. Vestibulum viverra ultricies auctor. Cras commodo nibh quam, quis luctus enim eleifend sit amet. Vestibulum nec maximus enim, nec venenatis sem.</p>
+            <a href="./down-up" class="btn mt-auto"><i class="fab fa-github mr-2"></i>View Project on GitHub</a>
+          </div>
+        
+      </div>
+    </section>
+  
+      </main>
+      <footer class="container text-center py-3">
+        <h3 class="text-dark">&copy; 2021 by Mateo</h3>
+      </footer>
     </body>
     </html>
-    
+  
